@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
-.container_nav {
+/* UTILITIES */
+.width {
     width: 1000px;
-    margin: 10px auto;
+    margin:auto; 
 }
 
+/* HEADER */
 .logo {
     height: 50px;
     width: 110px;
@@ -26,12 +27,36 @@
 
 /* MAIN */
 .container_hero {
-    background-image:linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url(../img/banner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)),url(../img/banner.jpg);
     height: 500px;
-    width: 1000px;
-    margin:auto;
     background-position: center;
     border-radius: 10px;
     position: relative;
 }
 
+.container_hero_title {
+    width: 500px;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: white;
+}
+
+.container_article {
+    height: 500px;
+    position: relative;
+    background-color: rgb(248, 210, 210);
+}
+
+.container_title_article {
+    position: absolute;
+    top:25px;
+}
+
+.container_title_article p {
+    color: gray ;
+}
+
+.container_article_img {
+
+}
