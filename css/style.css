@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+.container_nav {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.logo {
+    height: 50px;
+    width: 110px;
+    padding-right: 5px;
+    border-right:1px solid grey;
+}
+
+.container_nav li {
+    display: inline-block;
+    margin: 10px;
+}
+/* FINE HEADER */
+
+
+/* MAIN */
+.container_hero {
+    background-image:linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url(../img/banner.jpg);
+    height: 500px;
+    width: 1000px;
+    margin:auto;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
